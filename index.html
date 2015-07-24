@@ -28,27 +28,26 @@
 
     <div class="container">
       <section id="main_content">
-        <h3>jQuery Counter</h3>
-        <h4>DEMO</h4>
+        <h3>jQuery Counter Demo</h3>
         <div class="counterdemo">
-					<p>Amazing jQuery Counter</p>
-					<h1 class="counter"><span></span>&nbsp;</h1>
-					<p><a href="https://github.com/dhakimzadeh/jQueryCounter">DOWNLOAD HERE</a></p>
-					<p>&nbsp;</p>
-					<script type="text/javascript">
-					jQuery(document).ready(function($) {
-					        $('.counter').countTo({
-					            from: 0,
-					            to: 500000,
-					            speed: 5000,
-					            refreshInterval: 50,
-					            onComplete: function(value) {
-					                console.debug(this);
-					            }
-					        });
-					    });
-					</script>
-				</div>
+		<h4>Amazing jQuery Counter</h4>
+		<h1 class="counter"><span>--></span>&nbsp;</h1>
+		<p><a href="https://github.com/dhakimzadeh/jQueryCounter">DOWNLOAD HERE</a></p>
+		<p>&nbsp;</p>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+		        $('.counter').countTo({
+		            from: 0,
+		            to: 500000000,
+		            speed: 5000,
+		            refreshInterval: 50,
+		            onComplete: function(value) {
+		                console.debug(this);
+		            }
+		        });
+		    });
+		</script>
+	</div>
       </section>
     </div>
     
