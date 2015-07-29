@@ -25,7 +25,7 @@
 
                 if (loopCount >= loops) {
                     clearInterval(interval);
-                    value = options.to;
+                    value = options.finalvalue;
 
                     if (typeof(options.onComplete) == 'function') {
                         options.onComplete.call(_this, value);
@@ -41,6 +41,7 @@
         speed: 1000,  			// how long it should take to count between the target numbers
         refreshInterval: 100,  	// how often the element should be updated
         decimals: 0,  			// the number of decimal places to show
+        finalvalue: 50000,
         onUpdate: null,  		// callback method for every time the element is updated,
         onComplete: null,  		// callback method for when the element finishes updating
     };
