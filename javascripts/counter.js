@@ -27,7 +27,7 @@
                     clearInterval(interval);
                     value = options.finalvalue;
 		    
-		    jQuery(_this).html(value.toFixed(value)).digits();
+		    jQuery(_this).html(value).digits();
 		    
                     if (typeof(options.onComplete) == 'function') {
                         options.onComplete.call(_this, options.finalvalue);
