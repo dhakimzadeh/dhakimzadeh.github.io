@@ -28,7 +28,7 @@
                     value = options.finalvalue;
 
                     if (typeof(options.onComplete) == 'function') {
-                        options.onComplete.call(_this, finalvalue);
+                        options.onComplete.call(_this, options.finalvalue);
                     }
                 }
             }
