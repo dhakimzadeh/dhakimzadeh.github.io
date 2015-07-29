@@ -38,11 +38,12 @@
 		jQuery(document).ready(function($) {
 		        $('.counter').countTo({
 		            from: 0,
-		            to: 500000000,
+		            to: 534039499,
 		            speed: 5000,
 		            refreshInterval: 50,
 		            onComplete: function(value) {
 		                console.debug(this);
+		                jQuery('.counter').html(500000000);
 		            }
 		        });
 		    });
